@@ -4,13 +4,13 @@ public class JavaSubArray {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int a[] = new int[n];
+
+        int a[] = new int[]{1, -2, 4, -5, 1};
+
+
 
         //llena el arreglo
-        for (int i = 0; i < a.length; i++) {
-            a[i] = sc.nextInt();
-        }
+
 
         //código para sumar el subarreglo
         int cuenta = 0;
